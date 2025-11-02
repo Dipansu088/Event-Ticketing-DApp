@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>🎟️ Event Ticketing DApp</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div class="main-container">
+    <h1 class="title">🎟️ Event Ticketing DApp</h1>
+
+    <div class="card">
+      <button id="connectButton" class="connect-btn">🔗 Connect MetaMask</button>
+      <p id="account" class="account-text">Not Connected</p>
+
+      <h2 class="section-title">Buy Ticket</h2>
+      <input type="text" id="metadataURI" placeholder="Enter IPFS Metadata URI" class="input-box" />
+      <button id="buyTicketButton" class="buy-btn">Buy Ticket (0.01 SepoliaETH)</button>
+
+      <p id="status" class="status-text"></p>
+    </div>
+
+    <footer>
+      <p>Built on <b>Ethereum Sepolia Testnet</b> | Powered by <b>Blockchain</b> ⚡</p>
+    </footer>
+  </div>
+
+  <script src="https://cdn.jsdelivr.net/npm/web3@latest/dist/web3.min.js"></script>
+  <script src="script.js"></script>
+</body>
+</html>

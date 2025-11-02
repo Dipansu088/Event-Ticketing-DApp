@@ -1,0 +1,12 @@
+{
+  "name": "College Tech Fest 2025 - Ticket Trial",
+  "description": "Access pass for Tech Fest 2025, Regular category. Seat: Regular-12A. Date: 2025-11-20.",
+  "image": "ipfs://bafybeickq7vygq5mswsgyxb5g74oi7sj33dry7cmy6ku4fvzuy5kkcmcha",
+  "attributes": [
+    { "trait_type": "Event", "value": "College Tech Fest 2025" },
+    { "trait_type": "Category", "value": "Regular" },
+    { "trait_type": "Seat", "value": "Regular-12A" },
+    { "trait_type": "Date", "value": "2025-11-20" },
+    { "trait_type": "Venue", "value": "College Auditorium" }
+  ]
+}
